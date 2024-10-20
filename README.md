@@ -1,8 +1,9 @@
-# kow-dev
-Portfólio Pessoal
+## Portfólio Pessoal
 
+- Com os conhecimentos adquiridos com cursos da Udemy, criei um portifólio <Pessoal>
 
-A partir do curso realizado no Udemy, criei um portifólio com alguns projetos da turma XP32 do Gama Academy!!
+Projetos inseridos:
 
-02/10
-Inserido botão de conversa.
+- Turma XP32 do Gama Academy,
+- Rocketseat NLW,
+- QA Ninja para QA

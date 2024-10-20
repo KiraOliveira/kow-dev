@@ -13,8 +13,7 @@
       <nav>
         <ul>
           <li><a href="#projetos">Projetos</a></li>
-          <li><a href="test.html" >Testes</a></li>  
-          <li><a href="voluntariado.html" >Voluntariado</a></li>
+          <!--<li><a href="blog.html">Blog</a></li>-->
           <li><a href="#sobre">Sobre</a></li>
           <li><a href="#contato">Contato</a></li>
         </ul>
@@ -22,6 +21,7 @@
     </header>
     <section class="identity">
       <h1>Gislaine Oliveira</h1>
+      <h2>Front End</h2>
     </section>
 
     <section class="light container" id="projetos">
@@ -34,19 +34,46 @@
         <p>Códigos e Textos</p>
       </div>
 
-    <nav id="appProjects">
       <ul class="projects">
-        <div class="item" v-for="item of projects">
         <li>
-          <a :href="item.link" target="_self"
-            >{{item.name}}</a
+          <a href="https://apollomarketingdigital.netlify.com/" target="_self"
+            >Projeto: Show me the Leads</a
           >
-          <p>{{item.bio}}</p>
+          <p>
+            Primeiro desafio do Gama Academy, desenvolvimento de uma Landing
+            Page para captação de Leads, usando HMTL, CSS e JavaScript.
+          </p>
+        </li>
+        <li>
+          <a href="https://gera.netlify.com/" target="_self"
+            >Projeto: Show me the Money</a
+          >
+          <p>
+            Segundo desafio do Gama Academy, desenvolvimento de uma Landing Page
+            de um evento usando HTML, CSS e JavaScript.
+          </p>
+        </li>
+        <li>
+          <a href="https://moradiassabara.netlify.com/" target="_self"
+            >Projeto: Transformação Digital</a
+          >
+          <p>
+            Realizado a transformação digital da ONG Moradias Sabará, com HTML,
+            CSS e JavaScript.
+          </p>
+        </li>
+        <li>
+          <a
+            href="https://github.com/KiraOliveira/Consumo-de-Api"
+            target="_self"
+            >Projeto: Consumo de API</a
+          >
+          <p>
+            Realizado o consumo de uma Api do Arbnb, usando HTML, CSS e
+            JavaScript.
+          </p>
         </li>
       </ul>
-    </div>
-    </nav>
-
     </section>
 
     <section class="dark container" id="sobre">
@@ -131,11 +158,8 @@
       </ul>
     </section>
 
-    <script type="text/javascript" src="js/vue.js"></script>
-    <script type="text/javascript" src="js/appProjects.js"></script>
-
     <footer class="dark container">
-      <p>© Kira Oliveira 2024</p>
+      <p>© Kira Oliveira 2020</p>
     </footer>
   </body>
 </html>
