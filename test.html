@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8" />
+    <title>KOW</title>
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/index.css" />
+    <link rel="icon" href="images/favicon.png" />
+  </head>
+  <body>
+    <header class="light container">
+      <nav>
+        <ul>
+          <li><a href="#projetos">Projetos</a></li>
+          <li><a href="test.html" >Testes</a></li>
+          <li><a href="voluntariado.html" >Voluntariado</a></li>
+          <li><a href="#sobre">Sobre</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section class="identity">
+      <h1>Gislaine Oliveira</h1>
+    </section>
+
+    <section class="light container" id="projetos">
+      <div class="projects-header">
+        <img
+          alt="Imagem de uma lâmpada para representar todos os projetos"
+          src="images/projeto.png"
+        />
+        <h3>Projetos</h3>
+        <p>Códigos e Textos</p>
+      </div>
+
+    <nav id="appTests">
+      <ul class="projects">
+        <div class="item" v-for="item of tests">
+        <li>
+          <a :href="item.link" target="_self"
+            >{{item.name}}</a
+          >
+          <p>{{item.bio}}</p>
+        </li>
+      </ul>
+    </div>
+    </nav>
+
+    </section>
+
+    <section class="dark container" id="sobre">
+      <img alt="Foto da Kira Oliveira" src="images/Gih.jpg" />
+      <p class="bio">
+        Olá, eu sou
+        <strong
+          >Gislaine Oliveira, mais conhecida como Kira muito prazer :D </strong
+        >.
+      </p>
+      <p class="text">
+        Sou iniciante na área de Front end e sou apaixonada por
+        <strong>CSS. HTML e Javascript</strong> não ficam por fora também. Além
+        de assuntos de front, também me interesso por <strong>backend</strong> e
+        tenho curiosidade para aprender coisas novas.
+      </p>
+      <p class="text">
+        Com a parte de front end, uso principalmente as ferramentas no seu jeito
+        puro, sem usar muitos frameworks ou bibliotecas.
+      </p>
+    </section>
+
+    <section class="light container" id="contato">
+      <h3>Contato</h3>
+      <p>Diga Olá!</p>
+
+      <ul>
+        <li>
+          <a
+            class="email"
+            href="mailto:kow2.oliveira@gmail.com"
+            target="_blank"
+            rel="noopener roreferrer"
+            >Email</a
+          >
+        </li>
+        
+        <li>
+          <a
+            class="github"
+            href="https://github.com/KiraOliveira"
+            target="_blank"
+            rel="noopener roreferrer"
+            >Github</a
+          >
+        </li>
+        <li>
+          <a
+            class="facebook"
+            href="https://www.facebook.com/kirakonjunski/"
+            target="_blank"
+            rel="noopener roreferrer"
+            >Facebook</a
+          >
+        </li>
+        <li>
+          <a
+            class="linkedin"
+            href="https://www.linkedin.com/in/gislaine-oliveira/"
+            target="_blank"
+            rel="noopener roreferrer"
+            >Linkedin</a
+          >
+        </li>
+        <li>
+          <a
+            class="instagram"
+            href="https://www.instagram.com/kiraoliveira/?hl=pt-br"
+            target="_blank"
+            rel="noopener roreferrer"
+            >Instagram</a
+          >
+        </li>
+      </ul>
+    </section>
+
+    <script type="text/javascript" src="js/vue.js"></script>
+    <script type="text/javascript" src="js/appTests.js"></script>
+
+    <footer class="dark container">
+      <p>© Kira Oliveira 2024</p>
+    </footer>
+  </body>
+</html>

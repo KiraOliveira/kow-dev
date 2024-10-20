@@ -44,20 +44,6 @@ const LIST = [
    
 ]
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 const AppProjects = new Vue({
     el: '#appProjects',
     data: {
